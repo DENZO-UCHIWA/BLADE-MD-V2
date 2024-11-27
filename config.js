@@ -56,14 +56,14 @@ module.exports = {
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "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",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   antilink_values: process.env.ANTILINK_VALUES || "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "229",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   LANG: (process.env.THEME || "BLADE").toUpperCase(),
 };
 global.rank = "updated";
